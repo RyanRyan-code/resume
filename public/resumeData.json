@@ -1,0 +1,107 @@
+{
+  "main": {
+    "name":"Ryan W.",
+    "description":"A student of pure maths. \nThen an accountant. \nNow an aspiring coder",
+    "image":"profilepic.jpg",
+    "bio":"I used to work as an accountant. Now I am a part-time IT student in UNSW, sponsored by the Commonwealth. I already have a good command of JAVA and SQL, and also some experince in Spring Boot. I am looking for jobs as a junior JAVA developer.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "riponway2a@gmail.com",
+    "phone": "0426869300",
+    "github":"https://github.com/RyanRyan-code",
+    "project":"https://github.com/RyanRyan-code",
+    "address":{
+      "street":"Sydney, Australia"
+    },
+    "website": "https://github.com/RyanRyan-code",
+    "resumedownload":"https://github.com/RyanRyan-code",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://github.com/RyanRyan-code",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://github.com/RyanRyan-code",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://github.com/RyanRyan-code",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://github.com/RyanRyan-code",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/RyanRyan-code",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "school":"UNSW",
+        "degree":"Master of Information Technology",
+        "graduated":"June 2022",
+        "description":"Part-time. All classes at night. "
+      },
+      {
+        "school":"University of Sydney",
+        "degree":"Master of Professional Accounting",
+        "graduated":"2016-2018",
+        "description":"Relevant courses include 'Accounting Information Systems' and 'Taxation Law and Practice'."
+      },
+      {
+        "school":"Fudan University",
+        "degree":"Bachelor of Fundamental and Applied Mathematics",
+        "graduated":"2013-2016",
+        "description":"Relevant courses include 'C++', 'Advanced Algebra', 'Information Theory', etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"Jian Jun Ceramic Tiles Pty Ltd",
+        "title":"Accountant",
+        "years":"2019-2021",
+        "description":""
+      },
+      {
+        "company":"MacLand Group",
+        "title":"Real Estate Agent",
+        "years":"2017-2018",
+        "description":""
+      },
+      {
+        "company":"Academic Tutor",
+        "title":"Maths. English. Accounting. Economics.",
+        "years":"2013-2018",
+        "description":""
+      }
+    ],
+    "skills":[
+      {
+        "name":"Java",
+        "level":"80%"
+      },
+      {
+        "name":"Spring Boot",
+        "level":"75%"
+      },
+      {
+        "name":"SQL",
+        "level":"90%"
+      },
+      {
+        "name":"AWS",
+        "level":"80%"
+      }
+    ]
+  }
+  
+}

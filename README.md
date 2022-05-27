@@ -1,1 +1,1 @@
-## developed from an open resume template:https://github.com/tbakerx/react-resume-template
+developed from an open resume template:https://github.com/tbakerx/react-resume-template

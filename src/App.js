@@ -8,6 +8,8 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
+import { useEffect } from "react/cjs/react.production.min";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 class App extends Component {
   constructor(props) {
@@ -16,9 +18,6 @@ class App extends Component {
       foo: "bar",
       resumeData: {}
     };
-
-    ReactGA.initialize("UA-110570651-1");
-    ReactGA.pageview(window.location.pathname);
   }
 
   getResumeData() {
@@ -40,16 +39,28 @@ class App extends Component {
     this.getResumeData();
   }
 
+  
+
   render() {
     return (
-      <div className="App">
-        <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
-        
-        
-        <Footer data={this.state.resumeData.main} />
-      </div>
+      <Router>
+        <Routes>
+
+          <Route path='/' element={
+            
+            <div className="App">
+            <Header data={this.state.resumeData.main} />        
+            <About data={this.state.resumeData.main} />
+            <Resume data={this.state.resumeData.resume} />               
+            <Footer data={this.state.resumeData.main} />
+          
+          </div>
+          }/>
+
+          <Route path='/ml' element={<p>nice</p>} />
+      
+      </Routes>
+      </Router>
     );
   }
 }
@@ -63,3 +74,4 @@ export default App;
 
 
 */
+

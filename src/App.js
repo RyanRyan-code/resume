@@ -57,7 +57,7 @@ class App extends Component {
           </div>
           }/>
 
-          <Route path='/ml' element={<p>nice</p>} />
+          
       
       </Routes>
       </Router>
